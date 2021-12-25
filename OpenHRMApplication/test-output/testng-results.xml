@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-21T07:45:57 IST" name="Open HRM Application Suite" finished-at="2021-12-21T07:46:22 IST" duration-ms="25074">
+    <groups>
+    </groups>
+    <test started-at="2021-12-21T07:45:57 IST" name="Dash board Test Case" finished-at="2021-12-21T07:46:08 IST" duration-ms="10823">
+      <class name="testcases.PendingLeaveRequest_test">
+        <test-method signature="verifyPendingLeave()[pri:0, instance:testcases.PendingLeaveRequest_test@4ac3c60d]" started-at="2021-12-21T07:45:57 IST" name="verifyPendingLeave" finished-at="2021-12-21T07:46:08 IST" duration-ms="10782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPendingLeave -->
+      </class> <!-- testcases.PendingLeaveRequest_test -->
+    </test> <!-- Dash board Test Case -->
+    <test started-at="2021-12-21T07:46:08 IST" name="User role Test case" finished-at="2021-12-21T07:46:22 IST" duration-ms="14214">
+      <class name="testcases.UserRole_test">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testcases.UserRole_test@1d9b7cce]" started-at="2021-12-21T07:45:51 IST" name="openBrowser" finished-at="2021-12-21T07:45:57 IST" duration-ms="5695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="getingUserRoleStatus()[pri:0, instance:testcases.UserRole_test@1d9b7cce]" started-at="2021-12-21T07:46:08 IST" name="getingUserRoleStatus" finished-at="2021-12-21T07:46:22 IST" duration-ms="14211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getingUserRoleStatus -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.UserRole_test@1d9b7cce]" started-at="2021-12-21T07:46:22 IST" name="closeBrowser" finished-at="2021-12-21T07:46:22 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.UserRole_test -->
+    </test> <!-- User role Test case -->
+  </suite> <!-- Open HRM Application Suite -->
+</testng-results>
